@@ -1,0 +1,12 @@
+.tooltipText {
+    position: absolute;
+    /* transform: translateY(120%); */
+    background-color: #f5f9ff;
+    width: 50vh;
+    height: 20vh;
+    border-radius: 2rem;
+    padding: 1rem;
+    left: -6rem;
+    box-shadow: 5px 4px 6px 1px grey;
+    /* display: none; */
+}
