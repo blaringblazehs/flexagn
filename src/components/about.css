@@ -9,7 +9,7 @@
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 6rem 2fr 1fr 6rem;
-    border-top: 2px solid black;
+    /* border-top: 2px solid black; */
 }
 .left-abt {
     /* background-color: red; */
@@ -122,7 +122,7 @@
         display: grid;
         grid-template-rows: 1fr 1fr;
         grid-template-columns: 2rem 2fr 1fr 2rem;
-        border-top: 2px solid black;
+        /* border-top: 2px solid black; */
     }
     .bottom-abt {
         /* background-color: green; */
@@ -145,7 +145,7 @@
         display: grid;
         grid-template-rows: 1fr 300px 1fr;
         grid-template-columns: 1rem 1fr 1rem;
-        border-top: 2px solid black;
+        /* border-top: 2px solid black; */
     }
     .left-abt {
         /* background-color: red; */

@@ -35,10 +35,6 @@ const Navbar = () => {
                 </div>
             </nav>
             {/* main heading section */}
-            {/* <section className="hero-section">
-                <p>Welcome to </p>
-                <h2>Flexacon</h2>
-            </section> */}
         </>
     );
 };

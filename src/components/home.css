@@ -5,7 +5,7 @@
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 6rem 1fr 1fr 6rem;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 .left {
     /* background-color: red; */
@@ -61,7 +61,7 @@
         display: grid;
         grid-template-rows: 1fr;
         grid-template-columns: 2rem 1fr 1fr 2rem;
-        border: 2px solid black;
+        /* border: 2px solid black; */
         /* display: none; */
     }
     .app-button {
@@ -84,7 +84,7 @@
         display: grid;
         grid-template-rows: 1fr 1fr;
         grid-template-columns: 1rem 1fr 1rem;
-        border: 2px solid black;
+        /* border: 2px solid black; */
     }
     .right {
         grid-row: 2/3;
