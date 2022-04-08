@@ -9,22 +9,22 @@
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 6rem 2fr 1fr 6rem;
-    border: 2px solid black;
+    border-top: 2px solid black;
 }
 .left-abt {
-    background-color: red;
+    /* background-color: red; */
     grid-column: 2/3;
     padding: 2rem;
 }
-.right-abt {
+/* .right-abt {
     background-color: aqua;
-}
+} */
 .right-abt img {
     width: 100%;
     height: 100%;
 }
 .bottom-abt {
-    background-color: green;
+    /* background-color: green; */
     grid-row: 2/3;
     grid-column: 2/4;
     display: grid;
@@ -33,7 +33,7 @@
 }
 .bottom1 {
     grid-column: 2/3;
-    background-color: lightblue;
+    /* background-color: lightblue; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -60,7 +60,7 @@
 /* bottom 2 */
 .bottom2 {
     grid-column: 3/4;
-    background-color: orange;
+    /* background-color: orange; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -85,7 +85,7 @@
 }
 .bottom3 {
     grid-column: 4/5;
-    background-color: aqua;
+    /* background-color: aqua; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -122,10 +122,10 @@
         display: grid;
         grid-template-rows: 1fr 1fr;
         grid-template-columns: 2rem 2fr 1fr 2rem;
-        border: 2px solid black;
+        border-top: 2px solid black;
     }
     .bottom-abt {
-        background-color: green;
+        /* background-color: green; */
         grid-row: 3/4;
         grid-column: 2/4;
         display: grid;
@@ -145,14 +145,14 @@
         display: grid;
         grid-template-rows: 1fr 300px 1fr;
         grid-template-columns: 1rem 1fr 1rem;
-        border: 2px solid black;
+        border-top: 2px solid black;
     }
     .left-abt {
-        background-color: red;
+        /* background-color: red; */
         grid-column: 2/3;
     }
     .right-abt {
-        background-color: aqua;
+        /* background-color: aqua; */
         grid-row: 2/3;
         grid-column: 2/3;
         display: flex;
@@ -164,7 +164,7 @@
         height: 100%;
     }
     .bottom-abt {
-        background-color: green;
+        /* background-color: green; */
         grid-row: 3/4;
         grid-column: 2/3;
         display: grid;

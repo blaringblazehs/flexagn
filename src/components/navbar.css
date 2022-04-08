@@ -11,6 +11,7 @@
     display: grid;
     /* background-color: aqua; */
     grid-column: 2/3;
+    color: #235bd1;
     justify-content: start;
     align-items: center;
 }

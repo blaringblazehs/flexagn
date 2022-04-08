@@ -35,6 +35,15 @@
 .app-button .btn1 {
     grid-column: 1/2;
     height: 3rem;
+    background-color: black;
+    color: white;
+    font-weight: 800;
+}
+.btn2 {
+    height: 3rem;
+    background-color: darkgrey;
+    color: white;
+    font-weight: 800;
 }
 .right {
     /* background-color: aqua; */
@@ -43,4 +52,51 @@
 .right img {
     width: 100%;
     height: 87%;
+}
+@media (max-width: 1080px) {
+    .main {
+        width: 100%;
+        height: 90vh;
+        /* height: 5rem; */
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 2rem 1fr 1fr 2rem;
+        border: 2px solid black;
+        /* display: none; */
+    }
+    .app-button {
+        display: grid;
+        /* background-color: lightblue; */
+        grid-template-columns: 2fr 2fr 1fr 1rem;
+
+        grid-column-gap: 7px;
+    }
+    .app-button .btn1 {
+        grid-column: 1/2;
+        height: 3rem;
+    }
+}
+@media (max-width: 998px) {
+    .main {
+        width: 100%;
+        height: 90vh;
+        /* height: 5rem; */
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1rem 1fr 1rem;
+        border: 2px solid black;
+    }
+    .right {
+        grid-row: 2/3;
+        grid-column: 2/3;
+    }
+    .heading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .heading h1 {
+        font-size: x-large;
+        font-weight: 800;
+    }
 }
