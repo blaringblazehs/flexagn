@@ -14,7 +14,7 @@ const Navbar = () => {
                 <div className={menu ? "mobile-menu-link" : "menu-link"}>
                     <ul>
                         <li>
-                            <Link to="/">Home</Link>
+                            <Link to="/flexagn">Home</Link>
                         </li>
                         <li>
                             <Link to="/about">About</Link>
